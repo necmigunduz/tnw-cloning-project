@@ -2,28 +2,63 @@
   FONTS
   _____________*/
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Paytone+One&family=Roboto+Condensed:wght@700&family=Share+Tech+Mono&display=swap");
 
 /*_____________
   IMAGES
   _____________*/
 
-.blue-car {
-  background-image: linear-gradient(transparent, black 99%), url("../images/blue_car.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+#blue-car {
+  background-image: linear-gradient(transparent, black 99%),
+    url("../images/blue_car.jpg");
 }
 
-.money {
-  background-image: linear-gradient(transparent, black 99%), url("../images/insta_story.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+#money {
+  background-image: linear-gradient(transparent, black 99%),
+    url("../images/insta_story.jpg");
 }
 
-.phone {
-  background-image: linear-gradient(transparent, black 99%), url("../images/money.png");
-  background-position: center;
+#phone {
+  background-image: linear-gradient(transparent, black 99%),
+    url("../images/money.png");
+}
+
+#space {
+  background-image: url("../images/space.jpg");
+}
+
+#tech-skill {
+  background-image: url("../images/tech_skill.jpg");
+}
+
+#conflict {
+  background-image: url("../images/conflict.jpeg");
+}
+
+#developer {
+  background-image: url("../images/developer.jpg");
+}
+
+#chemistry {
+  background-image: url("../images/chemistry.jpg");
+}
+
+#debit-card {
+  background-image: url("../images/debit_card.png");
+}
+
+#volvo-guy {
+  background-image: url("../images/volvo-guy.jpg");
+}
+
+#phone-computer {
+  background-image: url("../images/phone_computer_22.jpg");
+}
+
+.image {
   background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
 
 /*_____________
@@ -55,4 +90,43 @@
   text-decoration: none;
   font-family: "Share Tech Mono", monospace;
   margin-top: auto;
+}
+
+.orange {
+  color: #f42;
+}
+
+.title {
+  text-decoration: none;
+  font-size: 1.6em;
+  font-family: "Paytone One", sans-serif;
+}
+
+section {
+  margin: 18px;
+}
+
+section > h2 {
+  margin: 1.4em 0;
+}
+
+.little-img {
+  left: 0;
+  padding-top: 75px;
+  position: absolute;
+  top: 0;
+  width: 75px;
+}
+
+.little-container {
+  position: relative;
+  margin: 0 0 1em 0;
+  height: 75px;
+}
+
+.little-container > h3,
+.little-container > p {
+  margin: 0 0 0 86px;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 1px;
 }
