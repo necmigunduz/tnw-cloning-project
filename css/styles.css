@@ -1,0 +1,58 @@
+/*_____________
+  FONTS
+  _____________*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Share+Tech+Mono&display=swap");
+
+/*_____________
+  IMAGES
+  _____________*/
+
+.blue-car {
+  background-image: linear-gradient(transparent, black 99%), url("../images/blue_car.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.money {
+  background-image: linear-gradient(transparent, black 99%), url("../images/insta_story.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.phone {
+  background-image: linear-gradient(transparent, black 99%), url("../images/money.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*_____________
+  STYLE
+  _____________*/
+
+.section > div {
+  margin: 8px;
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section > div > h3 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 0.3em;
+}
+
+.section > div > p {
+  color: lightgray;
+  margin-top: 0.3em;
+}
+
+.section > div > a {
+  color: white;
+  text-decoration: none;
+  font-family: "Share Tech Mono", monospace;
+  margin-top: auto;
+}
