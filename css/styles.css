@@ -496,3 +496,60 @@ section > div > h2 {
   display: inline-block;
   padding: 0 4px;
 }
+
+/*---------- 
+    Nav Bar 
+ ------------*/
+
+ header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  color: lightgray;
+}
+.ul1 {
+  display: flex;  
+  padding: 0 20px;
+  float: left;
+}
+
+#nav-news {
+  font-weight: 700;
+}
+
+.ul1 li {
+  padding: 10px;
+}
+.ul2 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.ul2 li {
+  padding: 10px;
+}
+
+.left ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  float: left;
+}
+
+.left ul li {
+  padding-left: 10px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 16px;
+  color: #aaa;
+  letter-spacing: 2px;
+}
