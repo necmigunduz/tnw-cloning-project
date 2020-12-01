@@ -223,6 +223,10 @@ section > h2 {
   margin: 1.4em 0;
 }
 
+section > div > h2 {
+  margin: 1.4em 0;
+}
+
 .little-img {
   left: 0;
   padding-top: 75px;
@@ -328,8 +332,35 @@ section > h2 {
 }
 
 .s-4-container {
+  display: flex;
+  flex-direction: column;
   min-height: 332px;
   height: 332px;
+  padding: 20px;
+}
+
+.s-4-container > a {
+  margin-top: auto;
+  color: white;
+  text-decoration: none;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.s-4-container > h3 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 0.3em;
+}
+
+.s-4-container > p {
+  color: lightgray;
+  margin-top: 0.3em;
+}
+
+.s-4-container > p > a {
+  color: lightgray;
+  text-decoration: none; 
 }
 
 .s-5-secondary {
