@@ -90,12 +90,12 @@
 
 #stock-exchange {
   background-image: linear-gradient(transparent, black 99%),
-  url("../images/stock_exchange.jpg");
+    url("../images/stock_exchange.jpg");
 }
 
 #snapchat {
   background-image: linear-gradient(transparent, black 99%),
-  url("../images/snapchat.jpg");
+    url("../images/snapchat.jpg");
 }
 
 #dogs {
@@ -104,37 +104,37 @@
 
 #office-2 {
   background-image: linear-gradient(transparent, black 99%),
-  url("../images/office.png");
+    url("../images/office.png");
 }
 
 #blue-car-2 {
   background-image: linear-gradient(transparent, black 99%),
-  url("../images/blue_car_2.jpg");
+    url("../images/blue_car_2.jpg");
 }
 
 #painter {
   background-image: linear-gradient(transparent, black 99%),
-  url("../images/painter.jpg");
+    url("../images/painter.jpg");
 }
 
 #google {
   background-image: linear-gradient(transparent, black 99%),
-  url("../images/google.png");
+    url("../images/google.png");
 }
 
 #politician {
   background-image: linear-gradient(transparent, black 99%),
-  url("../images/politician.jpg");
+    url("../images/politician.jpg");
 }
 
 #hummer {
   background-image: linear-gradient(transparent, black 99%),
-  url("../images/hummer.jpg");
+    url("../images/hummer.jpg");
 }
 
 #phone-computer-2 {
   background-image: linear-gradient(transparent, black 99%),
-  url("../images/phone_computer_22.jpg");
+    url("../images/phone_computer_22.jpg");
 }
 
 #elon-musk {
@@ -360,7 +360,38 @@ section > div > h2 {
 
 .s-4-container > p > a {
   color: lightgray;
-  text-decoration: none; 
+  text-decoration: none;
+}
+
+.s-4-2nd-container {
+  padding: 20px;
+  background-color: #fff4f2;
+  position: relative;
+  min-height: 56px;
+  margin-top: 2px;
+}
+
+.s-4-2nd-container > a {
+  padding-top: 96px;
+  min-width: 96px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.s-4-2nd-container > p,
+.s-4-2nd-container > h4 {
+  margin-right: 96px;
+}
+
+.s-4-2nd-container > p {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.8em;
+}
+
+.s-4-2nd-container > h4 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 2px;
 }
 
 .s-5-secondary {
@@ -385,4 +416,83 @@ section > div > h2 {
 
 .s-5-title {
   display: inline-block;
+}
+
+.ul-style {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+.ul-style > li {
+  padding: 0.5em 0;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.ul-style > li > a {
+  text-decoration: none;
+  color: rgb(88, 88, 88);
+}
+
+.ul-style > li::before {
+  content: "\2022";
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.links-div {
+  background-color: #131313;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-div {
+  background-color: black;
+  height: 80px;
+  color: rgb(163, 163, 163);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.8em;
+}
+
+.info-div > img {
+  height: 0.7em;
+}
+
+.links-ul {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0 0 15px 0;
+}
+
+.links-ul > li {
+  background-color: rgb(58, 58, 58);
+  margin: 0 8px;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.others {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.9em;
+  color: rgb(170, 170, 170);
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.others > li {
+  margin: 0 8px;
+}
+
+.info-div > * {
+  display: inline-block;
+  padding: 0 4px;
 }
