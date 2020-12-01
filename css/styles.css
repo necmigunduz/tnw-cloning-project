@@ -3,6 +3,7 @@
   _____________*/
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Paytone+One&family=Roboto+Condensed:wght@700&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 /*_____________
   IMAGES
@@ -53,6 +54,38 @@
 
 #phone-computer {
   background-image: url("../images/phone_computer_22.jpg");
+}
+
+#stack-skills {
+  background-image: url("../images/Stack_Skills.jpg");
+}
+
+#python {
+  background-image: url("../images/python.jpg");
+}
+
+#analytics {
+  background-image: url("../images/analytics.jpg");
+}
+
+#xsplit {
+  background-image: url("../images/xsplit.jpg");
+}
+
+#mockuuups {
+  background-image: url("../images/mockuuups.jpg");
+}
+
+#master-class {
+  background-image: url("../images/master_class.jpg");
+}
+
+#coding-bundle {
+  background-image: url("../images/coding_bundle.jpg");
+}
+
+#fast-computer {
+  background-image: url("../images/fast_computer.jpg");
 }
 
 .image {
@@ -127,6 +160,113 @@ section > h2 {
 .little-container > h3,
 .little-container > p {
   margin: 0 0 0 86px;
-  font-family: 'Roboto Condensed', sans-serif;
-  letter-spacing: 1px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.2em;
+}
+
+.little-container > p {
+  font-size: 14px;
+  font-weight: 300;
+  color: gray;
+  margin-top: 4px;
+}
+
+.little-container > p > a {
+  text-decoration: none;
+  color: gray;
+}
+
+.little-container > p > a::after {
+  content: "\B7";
+  margin: 0 4px;
+}
+
+.secondary {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.6em;
+  margin: -0.5em 0 1em 0;
+}
+
+.s-3-container {
+  background-color: #fffaf8;
+  padding-bottom: 10px;
+  margin: 20px 0;
+}
+
+.smaller-img {
+  height: 60px;
+  width: 60px;
+  margin: 12px 12px 20px 12px;
+  float: left;
+}
+
+.s-3-head {
+  padding: 14px;
+  color: white;
+  background-color: #f42;
+  font-family: "Roboto", sans-serif;
+}
+
+.s-3-secondary {
+  padding: 14px;
+  color: black;
+  background-color: rgba(255, 68, 34, 0.08);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+}
+
+.s-3-third {
+  font-size: 0.6em;
+  font-family: "Share Tech Mono", monospace;
+  color: gray;
+  padding-top: 0.6em;
+}
+
+.s-3-container > p {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  padding: 14px 16px 6px 16px;
+  font-weight: 200;
+}
+
+.s-3-container > p > i {
+  margin: 0 6px;
+}
+
+.s-3-small {
+  font-size: 0.9em;
+  line-height: 1.2em;
+  border-top: solid 1.5px #ffbbba;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.s-3-small > a {
+  color: gray;
+  text-decoration: none;
+}
+
+.s-5-secondary {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.6em;
+  float: right;
+  margin: 1.4em 0;
+  text-decoration: none;
+}
+
+.s-5-container > p {
+  color: rgb(88, 88, 88);
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.s-5-container > p > span{
+  text-decoration: line-through;
+  color: gray;
+  font-size: 14px;
+}
+
+.s-5-title {
+  display: inline-block;
 }
