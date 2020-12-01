@@ -574,3 +574,60 @@ header nav {
   color: rgb(172, 172, 172);
   cursor: pointer;
 }
+
+/* ########################
+   media queries for Tablet
+   ######################## */
+
+@media (min-width: 768px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    height: 496px;
+    flex-wrap: wrap;
+  }
+
+  .section > div {
+    width: calc(33.333% - 56px);
+    margin-bottom: 0;
+    height: calc(50% - 48px);
+  }
+
+  .section > #blue-car {
+    width: calc(66.666% - 48px);
+    height: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .section-2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-2 > h2 {
+    width: 100%;
+  }
+  .section-2 > div {
+    width: calc(33.333% - 20px);
+    height: 210px;
+    padding: 10px;
+  }
+  .section-2 > div > a {
+    display: block;
+    position: static;
+    width: 100%;
+    height: 35%;
+  }
+
+  .little-container > h3,
+  .little-container > p {
+    margin: 0 0 0 0;
+  }
+  #latest-deals {
+    width: 80%;
+  }
+  .s-5-secondary {
+    margin-left: auto;
+  }
+}
