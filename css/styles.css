@@ -88,12 +88,92 @@
   background-image: url("../images/fast_computer.jpg");
 }
 
+#stock-exchange {
+  background-image: linear-gradient(transparent, black 99%),
+  url("../images/stock_exchange.jpg");
+}
+
+#snapchat {
+  background-image: linear-gradient(transparent, black 99%),
+  url("../images/snapchat.jpg");
+}
+
+#dogs {
+  background-image: url("../images/dogs.png");
+}
+
+#office-2 {
+  background-image: linear-gradient(transparent, black 99%),
+  url("../images/office.png");
+}
+
+#blue-car-2 {
+  background-image: linear-gradient(transparent, black 99%),
+  url("../images/blue_car_2.jpg");
+}
+
+#painter {
+  background-image: linear-gradient(transparent, black 99%),
+  url("../images/painter.jpg");
+}
+
+#google {
+  background-image: linear-gradient(transparent, black 99%),
+  url("../images/google.png");
+}
+
+#politician {
+  background-image: linear-gradient(transparent, black 99%),
+  url("../images/politician.jpg");
+}
+
+#hummer {
+  background-image: linear-gradient(transparent, black 99%),
+  url("../images/hummer.jpg");
+}
+
+#phone-computer-2 {
+  background-image: linear-gradient(transparent, black 99%),
+  url("../images/phone_computer_22.jpg");
+}
+
+#elon-musk {
+  background-image: url("../images/elon_musk.jpg");
+}
+
+#silicon {
+  background-image: url("../images/silicon.png");
+}
+
+#volvo-guy {
+  background-image: url("../images/volvo-guy.jpg");
+}
+
+#money-2 {
+  background-image: url("../images/money_2.png");
+}
+
+#chemistry-2 {
+  background-image: url("../images/chemistry_2.jpg");
+}
+
+#van {
+  background-image: url("../images/van.jpg");
+}
+
+#present {
+  background-image: url("../images/present.png");
+}
+
 .image {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
 }
 
+.gradient {
+  background-image: linear-gradient(transparent, black 99%);
+}
 /*_____________
   STYLE
   _____________*/
@@ -247,6 +327,11 @@ section > h2 {
   text-decoration: none;
 }
 
+.s-4-container {
+  min-height: 332px;
+  height: 332px;
+}
+
 .s-5-secondary {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 1.6em;
@@ -261,7 +346,7 @@ section > h2 {
   font-weight: 500;
 }
 
-.s-5-container > p > span{
+.s-5-container > p > span {
   text-decoration: line-through;
   color: gray;
   font-size: 14px;
