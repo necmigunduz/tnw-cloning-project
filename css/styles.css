@@ -231,6 +231,10 @@ section {
   color: #f42;
 }
 
+.orange.title:hover {
+  color: black;
+}
+
 .title {
   text-decoration: none;
   font-size: 1.6em;
@@ -268,6 +272,12 @@ section > div > h2 {
   line-height: 1.2em;
 }
 
+.little-container > h3:hover {
+  color: #f42;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .little-container > p {
   font-size: 14px;
   font-weight: 300;
@@ -280,6 +290,10 @@ section > div > h2 {
   color: gray;
 }
 
+.little-container > p > a:hover {
+  color: black;
+}
+
 .little-container > p > a::after {
   content: "\B7";
   margin: 0 4px;
@@ -289,6 +303,11 @@ section > div > h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 1.6em;
   margin: -0.5em 0 1em 0;
+}
+
+.orange.secondary > li:hover {
+  color: black;
+  cursor: pointer;
 }
 
 .s-3-container {
@@ -313,7 +332,7 @@ section > div > h2 {
 
 .s-3-secondary {
   padding: 14px;
-  color: black;
+  color: rgb(65, 65, 65);
   background-color: rgba(255, 68, 34, 0.08);
   font-family: "Roboto", sans-serif;
   font-size: 1.2em;
@@ -452,6 +471,10 @@ section > div > h2 {
   color: rgb(88, 88, 88);
 }
 
+.ul-style > li > a:hover {
+  color: black;
+}
+
 .ul-style > li::before {
   content: "\2022";
   color: #f42;
@@ -491,7 +514,13 @@ section > div > h2 {
   background-color: rgb(58, 58, 58);
   margin: 0 8px;
   padding: 12px;
+  border: solid 2px rgb(58, 58, 58);
   border-radius: 50%;
+}
+
+.links-ul > li:hover {
+  background-color: #131313;
+  cursor: pointer;
 }
 
 .others {
@@ -501,6 +530,11 @@ section > div > h2 {
   display: flex;
   justify-content: center;
   margin-top: 14px;
+}
+
+.others > li:hover {
+  color: white;
+  cursor: pointer;
 }
 
 .others > li {
@@ -547,6 +581,7 @@ header nav {
 
 #nav-news {
   font-weight: 700;
+  color: white;
 }
 
 .ul1 > li {
@@ -558,8 +593,12 @@ header nav {
 }
 
 .ul1 > li > a {
-  color: lightgray;
+  color: rgb(158, 158, 158);
   text-decoration: none;
+}
+
+.ul1 > li > a:hover {
+  color: white;
 }
 
 .left {
@@ -579,10 +618,14 @@ header nav {
   text-decoration: none;
 }
 
+.nav-2nd > li > a:hover {
+  color: black;
+}
+
 .left > button {
   border: none;
   background-color: white;
-  border-left: solid 0.5px lightgray;
+  border-right: solid 0.5px lightgray;
   height: 100%;
   width: 48px;
   color: rgb(172, 172, 172);
@@ -592,10 +635,16 @@ header nav {
 
 .left > button:first-of-type {
   margin-left: auto;
+  transform: scaleX(-1);
+}
+
+.left > button:first-of-type:hover {
+  color: black;
 }
 
 .left > button:nth-of-type(2) {
   color: #f42;
+  border-left: solid 0.5px lightgray;
 }
 
 .nav-2nd {
@@ -626,6 +675,10 @@ header nav {
 
   .hidden-tablet {
     display: none;
+  }
+
+  #blue-car > h3 {
+    font-size: 2em;
   }
 
   .section {
@@ -743,6 +796,10 @@ header nav {
     margin-left: auto;
   }
 
+  .s-5-secondary.orange:hover {
+    color: black;
+  }
+
   .show-tablet {
     display: flex;
   }
@@ -759,6 +816,18 @@ header nav {
 @media (min-width: 1024px) {
   .section-2 > div {
     width: calc(25% - 13.5px);
+  }
+
+  .section > div > h3 {
+    font-size: 1.5em;
+  }
+
+  #blue-car > h3 {
+    font-size: 3em;
+  }
+
+  .show-desktop {
+    display: block;
   }
 
   .hidden-desktop {
@@ -778,7 +847,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .s-3-1st-container > ul.secondary {
     width: fit-content;
     margin: 0;
@@ -792,6 +861,12 @@ header nav {
     min-height: 260px;
     height: 260px;
   }
+
+  .nav-div {
+    width: 100%;
+  }
+
+  .left {
+    width: 100%;
+  }
 }
-
-
