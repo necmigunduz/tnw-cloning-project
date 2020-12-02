@@ -223,6 +223,15 @@ section {
   margin-top: 0.3em;
 }
 
+.little-container > h3,
+.little-container > p {
+  margin: 0 0 0 86px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.2em;
+}
+
 .section > div > h3 {
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -242,15 +251,6 @@ section {
   font-weight: 200;
 }
 
-.little-container > h3,
-.little-container > p {
-  margin: 0 0 0 86px;
-  font-family: Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 600;
-  font-size: 17px;
-  line-height: 1.2em;
-}
-
 .little-container > p {
   font-size: 14px;
   font-weight: 300;
@@ -263,15 +263,15 @@ section {
   margin-top: 0.3em;
 }
 
-.s-4-2nd-container > p {
-  font-family: "Share Tech Mono", monospace;
-  font-size: 0.8em;
-}
-
 .s-5-container > p {
   color: rgb(88, 88, 88);
   font-size: 1em;
   font-weight: 500;
+}
+
+.s-4-2nd-container > p {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.8em;
 }
 
 .section > div > p {
@@ -347,6 +347,30 @@ section > div > h2 {
   color: gray;
 }
 
+.s-4-container > p > a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.ul-style > li > a {
+  text-decoration: none;
+  color: rgb(88, 88, 88);
+}
+
+.ul1 > li > a {
+  color: rgb(158, 158, 158);
+  text-decoration: none;
+}
+
+.nav-2nd > li > a {
+  margin-right: 20px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 14px;
+  color: rgb(138, 138, 138);
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
 .little-container > p > a:hover {
   color: black;
 }
@@ -375,6 +399,14 @@ section > div > h2 {
   border-radius: 50%;
 }
 
+.others > li {
+  margin: 0 8px;
+}
+
+.ul1 > li {
+  padding: 10px;
+}
+
 .links-ul > li:hover {
   background-color: #131313;
   cursor: pointer;
@@ -385,8 +417,8 @@ section > div > h2 {
   cursor: pointer;
 }
 
-.others > li {
-  margin: 0 8px;
+.ul1 > li:nth-of-type(7) {
+  margin-left: auto;
 }
 
 .orange.secondary > li:hover {
@@ -449,11 +481,6 @@ section > div > h2 {
   padding: 20px;
 }
 
-.s-4-container > p > a {
-  color: lightgray;
-  text-decoration: none;
-}
-
 .s-4-2nd-container {
   padding: 17px;
   background-color: #fff4f2;
@@ -494,11 +521,6 @@ section > div > h2 {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 13px;
   line-height: 1.5em;
-}
-
-.ul-style > li > a {
-  text-decoration: none;
-  color: rgb(88, 88, 88);
 }
 
 .ul-style > li > a:hover {
@@ -593,19 +615,6 @@ header nav {
   color: white;
 }
 
-.ul1 > li {
-  padding: 10px;
-}
-
-.ul1 > li:nth-of-type(7) {
-  margin-left: auto;
-}
-
-.ul1 > li > a {
-  color: rgb(158, 158, 158);
-  text-decoration: none;
-}
-
 .ul1 > li > a:hover {
   color: white;
 }
@@ -616,15 +625,6 @@ header nav {
   height: 49px;
   width: calc(100vw - 122px);
   background-color: white;
-}
-
-.nav-2nd > li > a {
-  margin-right: 20px;
-  font-family: "Share Tech Mono", monospace;
-  font-size: 14px;
-  color: rgb(138, 138, 138);
-  letter-spacing: 1px;
-  text-decoration: none;
 }
 
 .nav-2nd > li > a:hover {
@@ -647,13 +647,13 @@ header nav {
   transform: scaleX(-1);
 }
 
-.left > button:first-of-type:hover {
-  color: black;
-}
-
 .left > button:nth-of-type(2) {
   color: #f42;
   border-left: solid 0.5px lightgray;
+}
+
+.left > button:first-of-type:hover {
+  color: black;
 }
 
 .nav-2nd {
@@ -684,6 +684,11 @@ header nav {
 
   .hidden-tablet {
     display: none;
+  }
+
+  .little-container > h3,
+  .little-container > p {
+    margin: 0 0 0 0;
   }
 
   #blue-car > h3 {
@@ -781,11 +786,6 @@ header nav {
     margin: 0 0 35px 0;
   }
 
-  .little-container > h3,
-  .little-container > p {
-    margin: 0 0 0 0;
-  }
-
   #latest-deals {
     width: 80%;
   }
@@ -858,7 +858,7 @@ header nav {
   }
 
   .s-3-1st-container > ul.secondary {
-    width: fit-content;
+    width: auto;
     margin: 0;
   }
 
