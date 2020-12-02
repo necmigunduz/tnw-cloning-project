@@ -216,12 +216,6 @@ section {
   flex-direction: column;
 }
 
-.little-container > h3:hover {
-  color: #f42;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 .s-4-container > h3 {
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -236,6 +230,18 @@ section {
   margin-top: 0.3em;
 }
 
+.little-container > h3:hover {
+  color: #f42;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.s-3-container > p {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  padding: 14px 16px 6px 16px;
+  font-weight: 200;
+}
+
 .little-container > h3,
 .little-container > p {
   margin: 0 0 0 86px;
@@ -245,10 +251,27 @@ section {
   line-height: 1.2em;
 }
 
-.s-3-container > p {
-  font-family: Calibri, "Trebuchet MS", sans-serif;
-  padding: 14px 16px 6px 16px;
-  font-weight: 200;
+.little-container > p {
+  font-size: 14px;
+  font-weight: 300;
+  color: gray;
+  margin-top: 4px;
+}
+
+.s-4-container > p {
+  color: lightgray;
+  margin-top: 0.3em;
+}
+
+.s-4-2nd-container > p {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.8em;
+}
+
+.s-5-container > p {
+  color: rgb(88, 88, 88);
+  font-size: 1em;
+  font-weight: 500;
 }
 
 .section > div > p {
@@ -266,6 +289,14 @@ section {
   color: white;
   text-decoration: none;
   font-family: "Share Tech Mono", monospace;
+}
+
+.s-4-2nd-container > a {
+  padding-top: 96px;
+  min-width: 96px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .section > div > a {
@@ -311,13 +342,6 @@ section > div > h2 {
   height: 75px;
 }
 
-.little-container > p {
-  font-size: 14px;
-  font-weight: 300;
-  color: gray;
-  margin-top: 4px;
-}
-
 .little-container > p > a {
   text-decoration: none;
   color: gray;
@@ -336,6 +360,33 @@ section > div > h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 1.6em;
   margin: -0.5em 0 1em 0;
+}
+
+.ul-style > li {
+  padding: 0.5em 0;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.links-ul > li {
+  background-color: rgb(58, 58, 58);
+  margin: 0 8px;
+  padding: 12px;
+  border: solid 2px rgb(58, 58, 58);
+  border-radius: 50%;
+}
+
+.links-ul > li:hover {
+  background-color: #131313;
+  cursor: pointer;
+}
+
+.others > li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.others > li {
+  margin: 0 8px;
 }
 
 .orange.secondary > li:hover {
@@ -398,11 +449,6 @@ section > div > h2 {
   padding: 20px;
 }
 
-.s-4-container > p {
-  color: lightgray;
-  margin-top: 0.3em;
-}
-
 .s-4-container > p > a {
   color: lightgray;
   text-decoration: none;
@@ -416,22 +462,9 @@ section > div > h2 {
   margin-top: 2px;
 }
 
-.s-4-2nd-container > a {
-  padding-top: 96px;
-  min-width: 96px;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
 .s-4-2nd-container > p,
 .s-4-2nd-container > h4 {
   margin-right: 96px;
-}
-
-.s-4-2nd-container > p {
-  font-family: "Share Tech Mono", monospace;
-  font-size: 0.8em;
 }
 
 .s-4-2nd-container > h4 {
@@ -445,12 +478,6 @@ section > div > h2 {
   float: right;
   margin: 1.4em 0;
   text-decoration: none;
-}
-
-.s-5-container > p {
-  color: rgb(88, 88, 88);
-  font-size: 1em;
-  font-weight: 500;
 }
 
 .s-5-container > p > span {
@@ -467,11 +494,6 @@ section > div > h2 {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 13px;
   line-height: 1.5em;
-}
-
-.ul-style > li {
-  padding: 0.5em 0;
-  border-bottom: 1px solid rgb(230, 230, 230);
 }
 
 .ul-style > li > a {
@@ -518,19 +540,6 @@ section > div > h2 {
   padding: 0 0 15px 0;
 }
 
-.links-ul > li {
-  background-color: rgb(58, 58, 58);
-  margin: 0 8px;
-  padding: 12px;
-  border: solid 2px rgb(58, 58, 58);
-  border-radius: 50%;
-}
-
-.links-ul > li:hover {
-  background-color: #131313;
-  cursor: pointer;
-}
-
 .others {
   font-family: "Share Tech Mono", monospace;
   font-size: 0.9em;
@@ -538,15 +547,6 @@ section > div > h2 {
   display: flex;
   justify-content: center;
   margin-top: 14px;
-}
-
-.others > li:hover {
-  color: white;
-  cursor: pointer;
-}
-
-.others > li {
-  margin: 0 8px;
 }
 
 .info-div > * {
@@ -559,9 +559,9 @@ section > div > h2 {
   padding: 0 4px;
 }
 
-/*---------- 
-      Nav Bar 
-   ------------*/
+/* ----------
+   Nav Bar
+   ---------- */
 
 header {
   display: flex;
@@ -581,6 +581,7 @@ header nav {
   font-size: 14px;
   color: lightgray;
 }
+
 .ul1 {
   display: flex;
   padding: 0 10px;
