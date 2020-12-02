@@ -12,32 +12,39 @@
 
 <body>
     <header>
-        <nav class="nav">
-            <ul class="ul1">
-                <li><a href="#" id="nav-news">News</a></li>
-                <li><a href="#">Events <i class="fas fa-caret-down"></i></a></li>
-                <li><a href="#">Business <i class="fas fa-caret-down"></i></a></li>
-                <li><a href="#">AMAs</a></li>
-                <li><a href="#">Spaces</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Advertise</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="left">
-            <ul>
-                <li><a href="#">LATEST</a></li>
-                <li><a href="#">HARD FORK</a></li>
-                <li><a href="#">PLUGGED</a></li>
-                <li><a href="#">README</a></li>
-                <li><a href="#">GROWTH QUARTERS</a></li>
-                <li><a href="#">SHIFT</a></li>
-                <li><a href="#">NEURAL</a></li>
-            </ul>
-            <button type="button"><i class="fas fa-search"></i></button>
+        <div class="logo-div">
+            <img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="">
         </div>
+        <div>
+            <nav class="nav hidden-mobile show-tablet">
+                <ul class="ul1">
+                    <li><a href="#" id="nav-news">News</a></li>
+                    <li><a href="#">Events <i class="fas fa-caret-down"></i></a></li>
+                    <li><a href="#">Business <i class="fas fa-caret-down"></i></a></li>
+                    <li><a href="#">AMAs</a></li>
+                    <li><a href="#">Spaces</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="left">
+                <ul class="nav-2nd hidden-mobile show-tablet">
+                    <li><a href="#">LATEST</a></li>
+                    <li><a href="#">HARD FORK</a></li>
+                    <li><a href="#">PLUGGED</a></li>
+                    <li><a href="#">README</a></li>
+                    <li><a href="#">GROWTH QUARTERS</a></li>
+                    <li class="hidden-tablet"><a href="#">SHIFT</a></li>
+                    <li class="hidden-tablet"><a href="#">NEURAL</a></li>
+                </ul>
+                <button type="button"><i class="fas fa-search"></i></button>
+                <button type="button" class="hidden-tablet"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+
     </header>
     <main>
         <div class="section">
@@ -130,17 +137,20 @@
                 </h3>
                 <p><a href="#">Ben Dickson</a>2 days ago</p>
             </div>
+            <div class="little-container hidden-mobile show-tablet hidden-desktop"></div>
         </section>
-        <section>
-            <h2>
-                <a href="#" class="orange title">Latest funding rounds on Index.co <i
-                        class="fas fa-angle-right"></i></a>
-            </h2>
-            <ul class="orange secondary">
-                <li>Add info</li>
-                <li>Get updates by email</li>
-                <li>See more</li>
-            </ul>
+        <section class="section-3">
+            <div class="s-3-1st-container">
+                <h2>
+                    <a href="#" class="orange title">Latest funding rounds on Index.co <i
+                            class="fas fa-angle-right"></i></a>
+                </h2>
+                <ul class="orange secondary">
+                    <li>See more</li>
+                    <li>Get updates by email</li>
+                    <li>Add info</li>
+                </ul>
+            </div>
             <div class="s-3-container">
                 <img class="smaller-img" src="images/clicky.jpeg" alt="" />
                 <h3 class="s-3-head">CLICKY</h3>
@@ -198,7 +208,7 @@
                 </p>
             </div>
         </section>
-        <section>
+        <section class="section-4">
             <div>
                 <h2><a class="orange title" href="#">Hard Fork <i class="fas fa-angle-right"></i></a></h2>
                 <div id="stock-exchange" class="image s-4-container">
@@ -568,7 +578,8 @@
             </div>
         </section>
         <section class="section-2">
-            <h2 id="latest-deals" class="s-5-title"><a class="orange title" href="#">Latest deals <i class="fas fa-angle-right"></i></a>
+            <h2 id="latest-deals" class="s-5-title"><a class="orange title" href="#">Latest deals <i
+                        class="fas fa-angle-right"></i></a>
             </h2>
             <a href="#" class="orange s-5-secondary">See all Deals</a>
             <div class="little-container s-5-container">
@@ -611,6 +622,7 @@
                 <h3>The Premium Learn to Code 2021 Certification Bundle</h3>
                 <p><span>$4056</span> $59.99</p>
             </div>
+            <div class="little-container hidden-mobile show-tablet hidden-desktop"></div>
         </section>
     </main>
     <footer>
