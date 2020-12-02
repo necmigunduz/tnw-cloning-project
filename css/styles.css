@@ -274,6 +274,11 @@ section {
   font-size: 0.8em;
 }
 
+.s-4-2nd-container > p,
+.s-4-2nd-container > h4 {
+  margin-right: 96px;
+}
+
 .section > div > p {
   color: lightgray;
   margin-top: 0.3em;
@@ -487,11 +492,6 @@ section > div > h2 {
   position: relative;
   min-height: 62px;
   margin-top: 2px;
-}
-
-.s-4-2nd-container > p,
-.s-4-2nd-container > h4 {
-  margin-right: 96px;
 }
 
 .s-4-2nd-container > h4 {
