@@ -191,7 +191,7 @@ section {
 
 .logo-div {
   width: 106px;
-  height: 48px;
+  height: 49px;
   background-color: black;
 }
 
@@ -527,6 +527,7 @@ header {
   position: fixed;
   z-index: 1;
   top: 0;
+  box-shadow: 5px 10px 18px #d8d8d8;
 }
 
 header nav {
@@ -564,8 +565,7 @@ header nav {
 .left {
   display: flex;
   align-items: center;
-  height: 48px;
-  box-shadow: 5px 10px 18px #d8d8d8;
+  height: 49px;
   width: calc(100vw - 122px);
   background-color: white;
 }
