@@ -1,26 +1,29 @@
-/*_____________
-  FONTS
-  _____________*/
+/* _____________
+   FONTS
+   _____________ */
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Paytone+One&family=Roboto+Condensed:wght@700&family=Share+Tech+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
-/*_____________
-    IMAGES
-    _____________*/
+/* _____________
+   IMAGES
+   _____________ */
 
 #blue-car {
-  background-image: linear-gradient(transparent, black 99%),
+  background-image:
+    linear-gradient(transparent, black 99%),
     url("../images/blue_car.jpg");
 }
 
 #money {
-  background-image: linear-gradient(transparent, black 99%),
+  background-image:
+    linear-gradient(transparent, black 99%),
     url("../images/insta_story.jpg");
 }
 
 #phone {
-  background-image: linear-gradient(transparent, black 99%),
+  background-image:
+    linear-gradient(transparent, black 99%),
     url("../images/money.png");
 }
 
@@ -89,12 +92,14 @@
 }
 
 #stock-exchange {
-  background-image: linear-gradient(transparent, black 99%),
+  background-image:
+    linear-gradient(transparent, black 99%),
     url("../images/stock_exchange.jpg");
 }
 
 #snapchat {
-  background-image: linear-gradient(transparent, black 99%),
+  background-image:
+    linear-gradient(transparent, black 99%),
     url("../images/snapchat.jpg");
 }
 
@@ -103,37 +108,44 @@
 }
 
 .office-2 {
-  background-image: linear-gradient(transparent, black 99%),
+  background-image:
+    linear-gradient(transparent, black 99%),
     url("../images/office.png");
 }
 
 #blue-car-2 {
-  background-image: linear-gradient(transparent, black 99%),
+  background-image:
+    linear-gradient(transparent, black 99%),
     url("../images/blue_car_2.jpg");
 }
 
 #painter {
-  background-image: linear-gradient(transparent, black 99%),
+  background-image:
+    linear-gradient(transparent, black 99%),
     url("../images/painter.jpg");
 }
 
 #google {
-  background-image: linear-gradient(transparent, black 99%),
+  background-image:
+    linear-gradient(transparent, black 99%),
     url("../images/google.png");
 }
 
 #politician {
-  background-image: linear-gradient(transparent, black 99%),
+  background-image:
+    linear-gradient(transparent, black 99%),
     url("../images/politician.jpg");
 }
 
 #hummer {
-  background-image: linear-gradient(transparent, black 99%),
+  background-image:
+    linear-gradient(transparent, black 99%),
     url("../images/hummer.jpg");
 }
 
 #phone-computer-2 {
-  background-image: linear-gradient(transparent, black 99%),
+  background-image:
+    linear-gradient(transparent, black 99%),
     url("../images/phone_computer_22.jpg");
 }
 
@@ -171,9 +183,9 @@
   background-image: linear-gradient(transparent, black 99%);
 }
 
-/*_____________
-    STYLE
-    _____________*/
+/* _____________
+   STYLE
+   _____________ */
 
 main {
   padding-top: 48px;
@@ -204,6 +216,19 @@ section {
   flex-direction: column;
 }
 
+.little-container > h3:hover {
+  color: #f42;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.s-4-container > h3 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 0.3em;
+}
+
 .section > div > h3 {
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -211,9 +236,36 @@ section {
   margin-top: 0.3em;
 }
 
+.little-container > h3,
+.little-container > p {
+  margin: 0 0 0 86px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.2em;
+}
+
+.s-3-container > p {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  padding: 14px 16px 6px 16px;
+  font-weight: 200;
+}
+
 .section > div > p {
   color: lightgray;
   margin-top: 0.3em;
+}
+
+.s-3-small > a {
+  color: gray;
+  text-decoration: none;
+}
+
+.s-4-container > a {
+  margin-top: auto;
+  color: white;
+  text-decoration: none;
+  font-family: "Share Tech Mono", monospace;
 }
 
 .section > div > a {
@@ -257,21 +309,6 @@ section > div > h2 {
   position: relative;
   margin: 0 0 1em 0;
   height: 75px;
-}
-
-.little-container > h3,
-.little-container > p {
-  margin: 0 0 0 86px;
-  font-family: Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 600;
-  font-size: 17px;
-  line-height: 1.2em;
-}
-
-.little-container > h3:hover {
-  color: #f42;
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .little-container > p {
@@ -341,12 +378,6 @@ section > div > h2 {
   padding-top: 0.6em;
 }
 
-.s-3-container > p {
-  font-family: Calibri, "Trebuchet MS", sans-serif;
-  padding: 14px 16px 6px 16px;
-  font-weight: 200;
-}
-
 .s-3-container > p > i {
   margin: 0 6px;
 }
@@ -359,31 +390,12 @@ section > div > h2 {
   margin-left: 5px;
 }
 
-.s-3-small > a {
-  color: gray;
-  text-decoration: none;
-}
-
 .s-4-container {
   display: flex;
   flex-direction: column;
   min-height: 332px;
   height: 332px;
   padding: 20px;
-}
-
-.s-4-container > a {
-  margin-top: auto;
-  color: white;
-  text-decoration: none;
-  font-family: "Share Tech Mono", monospace;
-}
-
-.s-4-container > h3 {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  font-size: 1.2em;
-  margin-top: 0.3em;
 }
 
 .s-4-container > p {
