@@ -1,0 +1,898 @@
+/* _____________
+   FONTS
+   _____________ */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Paytone+One&family=Roboto+Condensed:wght@700&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+/* _____________
+   IMAGES
+   _____________ */
+
+#blue-car {
+  background-image:
+    linear-gradient(transparent, black 99%),
+    url("../images/blue_car.jpg");
+}
+
+#money {
+  background-image:
+    linear-gradient(transparent, black 99%),
+    url("../images/insta_story.jpg");
+}
+
+#phone {
+  background-image:
+    linear-gradient(transparent, black 99%),
+    url("../images/money.png");
+}
+
+#space {
+  background-image: url("../images/space.jpg");
+}
+
+#tech-skill {
+  background-image: url("../images/tech_skill.jpg");
+}
+
+#conflict {
+  background-image: url("../images/conflict.jpeg");
+}
+
+#developer {
+  background-image: url("../images/developer.jpg");
+}
+
+#chemistry {
+  background-image: url("../images/chemistry.jpg");
+}
+
+#debit-card {
+  background-image: url("../images/debit_card.png");
+}
+
+.volvo-guy {
+  background-image: url("../images/volvo-guy.jpg");
+}
+
+#phone-computer {
+  background-image: url("../images/phone_computer_22.jpg");
+}
+
+#stack-skills {
+  background-image: url("../images/Stack_Skills.jpg");
+}
+
+#python {
+  background-image: url("../images/python.jpg");
+}
+
+#analytics {
+  background-image: url("../images/analytics.jpg");
+}
+
+#xsplit {
+  background-image: url("../images/xsplit.jpg");
+}
+
+#mockuuups {
+  background-image: url("../images/mockuuups.jpg");
+}
+
+#master-class {
+  background-image: url("../images/master_class.jpg");
+}
+
+#coding-bundle {
+  background-image: url("../images/coding_bundle.jpg");
+}
+
+#fast-computer {
+  background-image: url("../images/fast_computer.jpg");
+}
+
+#stock-exchange {
+  background-image:
+    linear-gradient(transparent, black 99%),
+    url("../images/stock_exchange.jpg");
+}
+
+#snapchat {
+  background-image:
+    linear-gradient(transparent, black 99%),
+    url("../images/snapchat.jpg");
+}
+
+#dogs {
+  background-image: url("../images/dogs.png");
+}
+
+.office-2 {
+  background-image:
+    linear-gradient(transparent, black 99%),
+    url("../images/office.png");
+}
+
+#blue-car-2 {
+  background-image:
+    linear-gradient(transparent, black 99%),
+    url("../images/blue_car_2.jpg");
+}
+
+#painter {
+  background-image:
+    linear-gradient(transparent, black 99%),
+    url("../images/painter.jpg");
+}
+
+#google {
+  background-image:
+    linear-gradient(transparent, black 99%),
+    url("../images/google.png");
+}
+
+#politician {
+  background-image:
+    linear-gradient(transparent, black 99%),
+    url("../images/politician.jpg");
+}
+
+#hummer {
+  background-image:
+    linear-gradient(transparent, black 99%),
+    url("../images/hummer.jpg");
+}
+
+#phone-computer-2 {
+  background-image:
+    linear-gradient(transparent, black 99%),
+    url("../images/phone_computer_22.jpg");
+}
+
+#elon-musk {
+  background-image: url("../images/elon_musk.jpg");
+}
+
+#silicon {
+  background-image: url("../images/silicon.png");
+}
+
+#money-2 {
+  background-image: url("../images/money_2.png");
+}
+
+#chemistry-2 {
+  background-image: url("../images/chemistry_2.jpg");
+}
+
+#van {
+  background-image: url("../images/van.jpg");
+}
+
+#present {
+  background-image: url("../images/present.png");
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.gradient {
+  background-image: linear-gradient(transparent, black 99%);
+}
+
+/* _____________
+   STYLE
+   _____________ */
+
+main {
+  padding-top: 48px;
+}
+
+section {
+  max-width: 1200px;
+  padding: 18px;
+  margin: auto;
+}
+
+.logo-div {
+  width: 106px;
+  height: 49px;
+  background-color: black;
+}
+
+.logo-div > img {
+  height: 18px;
+  padding: 16px;
+}
+
+.section > div {
+  margin: 8px;
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.s-4-container > h3 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 0.3em;
+}
+
+.little-container > h3,
+.little-container > p {
+  margin: 0 0 0 86px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.2em;
+}
+
+.section > div > h3 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 0.3em;
+}
+
+.little-container > h3:hover {
+  color: #f42;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.s-3-container > p {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  padding: 14px 16px 6px 16px;
+  font-weight: 200;
+}
+
+.little-container > p {
+  font-size: 14px;
+  font-weight: 300;
+  color: gray;
+  margin-top: 4px;
+}
+
+.s-4-container > p {
+  color: lightgray;
+  margin-top: 0.3em;
+}
+
+.s-5-container > p {
+  color: rgb(88, 88, 88);
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.s-4-2nd-container > p {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.8em;
+}
+
+.s-4-2nd-container > p,
+.s-4-2nd-container > h4 {
+  margin-right: 96px;
+}
+
+.section > div > p {
+  color: lightgray;
+  margin-top: 0.3em;
+}
+
+.s-3-small > a {
+  color: gray;
+  text-decoration: none;
+}
+
+.s-4-container > a {
+  margin-top: auto;
+  color: white;
+  text-decoration: none;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.s-4-2nd-container > a {
+  padding-top: 96px;
+  min-width: 96px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.section > div > a {
+  color: white;
+  text-decoration: none;
+  font-family: "Share Tech Mono", monospace;
+  margin-top: auto;
+}
+
+.orange {
+  color: #f42;
+}
+
+.orange.title:hover {
+  color: black;
+}
+
+.title {
+  text-decoration: none;
+  font-size: 1.6em;
+  font-family: "Paytone One", sans-serif;
+}
+
+section > h2 {
+  margin: 1.4em 0;
+}
+
+section > div > h2 {
+  margin: 1.4em 0;
+}
+
+.little-img {
+  left: 0;
+  padding-top: 75px;
+  position: absolute;
+  top: 0;
+  width: 75px;
+}
+
+.little-container {
+  position: relative;
+  margin: 0 0 1em 0;
+  height: 75px;
+}
+
+.little-container > p > a {
+  text-decoration: none;
+  color: gray;
+}
+
+.s-4-container > p > a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.ul-style > li > a {
+  text-decoration: none;
+  color: rgb(88, 88, 88);
+}
+
+.ul1 > li > a {
+  color: rgb(158, 158, 158);
+  text-decoration: none;
+}
+
+.nav-2nd > li > a {
+  margin-right: 20px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 14px;
+  color: rgb(138, 138, 138);
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.little-container > p > a:hover {
+  color: black;
+}
+
+.little-container > p > a::after {
+  content: "\B7";
+  margin: 0 4px;
+}
+
+.secondary {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.6em;
+  margin: -0.5em 0 1em 0;
+}
+
+.ul-style > li {
+  padding: 0.5em 0;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.links-ul > li {
+  background-color: rgb(58, 58, 58);
+  margin: 0 8px;
+  padding: 12px;
+  border: solid 2px rgb(58, 58, 58);
+  border-radius: 50%;
+}
+
+.others > li {
+  margin: 0 8px;
+}
+
+.ul1 > li {
+  padding: 10px;
+}
+
+.links-ul > li:hover {
+  background-color: #131313;
+  cursor: pointer;
+}
+
+.others > li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.ul1 > li:nth-of-type(7) {
+  margin-left: auto;
+}
+
+.orange.secondary > li:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.s-3-container {
+  background-color: #fffaf8;
+  padding-bottom: 10px;
+  margin: 20px 0;
+}
+
+.smaller-img {
+  height: 60px;
+  width: 60px;
+  margin: 12px 12px 36px 12px;
+  float: left;
+}
+
+.s-3-head {
+  padding: 14px;
+  color: white;
+  background-color: #f42;
+  font-family: "Roboto", sans-serif;
+}
+
+.s-3-secondary {
+  padding: 14px;
+  color: rgb(65, 65, 65);
+  background-color: rgba(255, 68, 34, 0.08);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+}
+
+.s-3-third {
+  font-size: 0.6em;
+  font-family: "Share Tech Mono", monospace;
+  color: gray;
+  padding-top: 0.6em;
+}
+
+.s-3-container > p > i {
+  margin: 0 6px;
+}
+
+.s-3-small {
+  font-size: 0.9em;
+  line-height: 1.2em;
+  border-top: solid 1.5px #ffbbba;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.s-4-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 332px;
+  height: 332px;
+  padding: 20px;
+}
+
+.s-4-2nd-container {
+  padding: 17px;
+  background-color: #fff4f2;
+  position: relative;
+  min-height: 62px;
+  margin-top: 2px;
+}
+
+.s-4-2nd-container > h4 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 2px;
+}
+
+.s-5-secondary {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.6em;
+  float: right;
+  margin: 1.4em 0;
+  text-decoration: none;
+}
+
+.s-5-container > p > span {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 14px;
+}
+
+.s-5-title {
+  display: inline-block;
+}
+
+.ul-style {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+.ul-style > li > a:hover {
+  color: black;
+}
+
+.ul-style > li::before {
+  content: "\2022";
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.links-div {
+  background-color: #131313;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-div {
+  background-color: black;
+  height: 80px;
+  color: rgb(163, 163, 163);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.8em;
+}
+
+.links-ul {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0 0 15px 0;
+}
+
+.others {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.9em;
+  color: rgb(170, 170, 170);
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.info-div > * {
+  display: inline-block;
+  padding: 4px;
+}
+
+.info-div > p > img {
+  height: 0.7em;
+  padding: 0 4px;
+}
+
+#lrg-logo {
+  display: none;
+}
+
+/* ----------
+   Nav Bar
+   ---------- */
+
+header {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  box-shadow: 5px 10px 18px #d8d8d8;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  color: lightgray;
+}
+
+.ul1 {
+  display: flex;
+  padding: 0 10px;
+  flex-grow: 1;
+}
+
+#nav-news {
+  font-weight: 700;
+  color: white;
+}
+
+.ul1 > li > a:hover {
+  color: white;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  height: 49px;
+  width: calc(100vw - 106px);
+  background-color: white;
+}
+
+.nav-2nd > li > a:hover {
+  color: black;
+}
+
+.left > button {
+  border: none;
+  background-color: white;
+  border-right: solid 0.5px lightgray;
+  height: 100%;
+  width: 48px;
+  color: rgb(172, 172, 172);
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.left > button:first-of-type {
+  margin-left: auto;
+  transform: scaleX(-1);
+}
+
+.left > button:nth-of-type(2) {
+  color: #f42;
+  border-left: solid 0.5px lightgray;
+}
+
+.left > button:first-of-type:hover {
+  color: black;
+}
+
+.nav-2nd {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 20px;
+  float: left;
+}
+
+.hidden-mobile {
+  display: none;
+}
+
+/* ########################
+     media queries for Tablet
+     ######################## */
+
+@media (min-width: 768px) {
+  .logo-div {
+    height: 83px;
+    display: flex;
+    align-items: center;
+  }
+
+  main {
+    padding-top: 83px;
+  }
+
+  .hidden-tablet {
+    display: none;
+  }
+
+  .little-container > h3,
+  .little-container > p {
+    margin: 0 0 0 0;
+  }
+
+  #blue-car > h3 {
+    font-size: 2em;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    height: 496px;
+    flex-wrap: wrap;
+  }
+
+  .section > div {
+    width: calc(33.333% - 56px);
+    margin-bottom: 0;
+    height: calc(50% - 48px);
+  }
+
+  .section > #blue-car {
+    width: calc(66.666% - 48px);
+    height: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .section-2 > h2 {
+    width: 100%;
+  }
+
+  .section-2 > div {
+    width: calc(33.333% - 12px);
+    height: 210px;
+  }
+
+  .section-2 > div > a {
+    display: block;
+    position: static;
+    width: 100%;
+    height: 35%;
+  }
+
+  .section-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .s-3-1st-container {
+    width: 100%;
+  }
+
+  .s-3-1st-container > ul.secondary {
+    display: flex;
+    line-height: 14px;
+    font-size: 18px;
+    padding: 5px 0;
+    width: 100%;
+  }
+
+  .s-3-1st-container > ul.secondary > li {
+    padding: 0 14px;
+    border-left: solid 1px #f42;
+  }
+
+  .s-3-1st-container > ul.secondary > li:first-of-type {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .s-3-container {
+    width: calc(33.333% - 12px);
+    margin: 0;
+  }
+
+  .s-3-container:first-of-type {
+    margin-left: 0;
+  }
+
+  .s-3-container:nth-of-type(3) {
+    margin-right: 0;
+  }
+
+  .s-3-container:nth-of-type(4) {
+    display: none;
+  }
+
+  .little-container {
+    margin: 0 0 35px 0;
+  }
+
+  #latest-deals {
+    width: 80%;
+  }
+
+  .section-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .section-4 > div {
+    width: calc(50% - 9px);
+    margin-bottom: 20px;
+  }
+
+  .s-5-secondary {
+    margin-left: auto;
+  }
+
+  .s-5-secondary.orange:hover {
+    color: black;
+  }
+
+  .show-tablet {
+    display: flex;
+  }
+
+  .info-div {
+    flex-direction: row;
+  }
+}
+
+/* ########################
+     media queries for Laptop
+     ######################## */
+
+@media (min-width: 1024px) {
+  .section-2 > div {
+    width: calc(25% - 13.5px);
+  }
+
+  .section > div > h3 {
+    font-size: 1.5em;
+  }
+
+  #blue-car > h3 {
+    font-size: 3em;
+  }
+
+  #blue-car {
+    background-image:
+      linear-gradient(to left top, transparent 30%, rgba(255, 38, 0, 0.411) 70%),
+      linear-gradient(transparent, black 99%),
+      url("../images/blue_car.jpg");
+  }
+
+  .show-desktop {
+    display: block;
+  }
+
+  .hidden-desktop {
+    display: none;
+  }
+
+  .s-3-container {
+    width: calc(25% - 13.5px);
+  }
+
+  .s-3-container:nth-of-type(4) {
+    display: block;
+  }
+
+  .s-3-1st-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .s-3-1st-container > ul.secondary {
+    width: auto;
+    margin: 0;
+  }
+
+  .section-4 > div {
+    width: calc(33.333% - 12px);
+  }
+
+  .s-4-container {
+    min-height: 260px;
+    height: 260px;
+  }
+
+  .nav-div {
+    width: 100%;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  #lrg-logo {
+    width: 55%;
+    margin-right: auto;
+    display: inline-block;
+  }
+}
