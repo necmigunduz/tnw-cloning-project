@@ -581,6 +581,10 @@ section > div > h2 {
   padding: 0 4px;
 }
 
+#lrg-logo {
+  display: none;
+}
+
 /* ----------
    Nav Bar
    ---------- */
@@ -623,7 +627,7 @@ header nav {
   display: flex;
   align-items: center;
   height: 49px;
-  width: calc(100vw - 122px);
+  width: calc(100vw - 106px);
   background-color: white;
 }
 
@@ -835,6 +839,13 @@ header nav {
     font-size: 3em;
   }
 
+  #blue-car {
+    background-image:
+      linear-gradient(to left top, transparent 30%, rgba(255, 38, 0, 0.411) 70%),
+      linear-gradient(transparent, black 99%),
+      url("../images/blue_car.jpg");
+  }
+
   .show-desktop {
     display: block;
   }
@@ -877,5 +888,11 @@ header nav {
 
   .left {
     width: 100%;
+  }
+
+  #lrg-logo {
+    width: 55%;
+    margin-right: auto;
+    display: inline-block;
   }
 }
