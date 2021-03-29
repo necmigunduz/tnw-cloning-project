@@ -2,11 +2,11 @@
 
 # TNW Clone Project
 
-> We re-created the web page of The Next Web 
+> We have re-created the web page of The Next Web 
 
 ![screenshot](./images/screenshot.png)
 
-This is second week Microverse project we implemented it using the positioning and flexbox concepts.
+This is second week Microverse project we implemented it using the positioning and flexbox concepts..
 ## Built With
 
 - HTML
