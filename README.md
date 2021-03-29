@@ -6,7 +6,7 @@
 
 ![screenshot](./images/screenshot.png)
 
-This is second week Microverse project we implemented it using the positioning and flexbox concepts
+This is second week Microverse project we implemented it using the positioning and flexbox concepts.
 ## Built With
 
 - HTML
